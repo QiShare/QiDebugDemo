@@ -13,6 +13,9 @@
 		06A03B4F21F5C3F200226C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A03B4E21F5C3F200226C3F /* Assets.xcassets */; };
 		06A03B5221F5C3F200226C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A03B5021F5C3F200226C3F /* LaunchScreen.storyboard */; };
 		06A03B5521F5C3F200226C3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A03B5421F5C3F200226C3F /* main.m */; };
+		06A03B5D21F5C77800226C3F /* QiAnalyzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A03B5C21F5C77800226C3F /* QiAnalyzeViewController.m */; };
+		06A03B6021F5C78400226C3F /* QiBreakpointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A03B5F21F5C78400226C3F /* QiBreakpointViewController.m */; };
+		06A03B6321F5C80200226C3F /* QiConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A03B6221F5C80200226C3F /* QiConsoleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		06A03B5121F5C3F200226C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06A03B5321F5C3F200226C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A03B5421F5C3F200226C3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06A03B5B21F5C77800226C3F /* QiAnalyzeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiAnalyzeViewController.h; sourceTree = "<group>"; };
+		06A03B5C21F5C77800226C3F /* QiAnalyzeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiAnalyzeViewController.m; sourceTree = "<group>"; };
+		06A03B5E21F5C78400226C3F /* QiBreakpointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiBreakpointViewController.h; sourceTree = "<group>"; };
+		06A03B5F21F5C78400226C3F /* QiBreakpointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiBreakpointViewController.m; sourceTree = "<group>"; };
+		06A03B6121F5C80200226C3F /* QiConsoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiConsoleViewController.h; sourceTree = "<group>"; };
+		06A03B6221F5C80200226C3F /* QiConsoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiConsoleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				06A03B4621F5C3F000226C3F /* AppDelegate.m */,
 				06A03B4821F5C3F000226C3F /* ViewController.h */,
 				06A03B4921F5C3F000226C3F /* ViewController.m */,
+				06A03B5B21F5C77800226C3F /* QiAnalyzeViewController.h */,
+				06A03B5C21F5C77800226C3F /* QiAnalyzeViewController.m */,
+				06A03B5E21F5C78400226C3F /* QiBreakpointViewController.h */,
+				06A03B5F21F5C78400226C3F /* QiBreakpointViewController.m */,
+				06A03B6121F5C80200226C3F /* QiConsoleViewController.h */,
+				06A03B6221F5C80200226C3F /* QiConsoleViewController.m */,
 				06A03B4B21F5C3F000226C3F /* Main.storyboard */,
 				06A03B4E21F5C3F200226C3F /* Assets.xcassets */,
 				06A03B5021F5C3F200226C3F /* LaunchScreen.storyboard */,
@@ -141,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A03B6021F5C78400226C3F /* QiBreakpointViewController.m in Sources */,
 				06A03B4A21F5C3F000226C3F /* ViewController.m in Sources */,
+				06A03B6321F5C80200226C3F /* QiConsoleViewController.m in Sources */,
+				06A03B5D21F5C77800226C3F /* QiAnalyzeViewController.m in Sources */,
 				06A03B5521F5C3F200226C3F /* main.m in Sources */,
 				06A03B4721F5C3F000226C3F /* AppDelegate.m in Sources */,
 			);
