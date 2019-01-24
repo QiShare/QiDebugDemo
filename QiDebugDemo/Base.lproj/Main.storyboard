@@ -109,7 +109,24 @@
                     <view key="view" contentMode="scaleToFill" id="czK-4Z-6CN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c98-le-C9g">
+                                <rect key="frame" x="30" y="350.5" width="315" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KlF-d4-ue0"/>
+                                </constraints>
+                                <state key="normal" title="testBreakpoints"/>
+                                <connections>
+                                    <action selector="testBreakpoints:" destination="IRS-u7-LcH" eventType="touchUpInside" id="YxF-Q8-MUO"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="c98-le-C9g" firstAttribute="leading" secondItem="TLA-3j-toW" secondAttribute="leading" constant="30" id="Dfl-IP-0aY"/>
+                            <constraint firstItem="c98-le-C9g" firstAttribute="centerY" secondItem="TLA-3j-toW" secondAttribute="centerY" id="f42-RC-k5p"/>
+                            <constraint firstItem="TLA-3j-toW" firstAttribute="trailing" secondItem="c98-le-C9g" secondAttribute="trailing" constant="30" id="jj2-0i-qOU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="TLA-3j-toW"/>
                     </view>
                     <navigationItem key="navigationItem" title="断点调试" id="Ieh-tN-xWy" userLabel="断点调试"/>
