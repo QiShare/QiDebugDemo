@@ -76,7 +76,24 @@
                     <view key="view" contentMode="scaleToFill" id="YMX-qC-8yp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4G-lr-V1D">
+                                <rect key="frame" x="30" y="350.5" width="315" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Hp6-xb-c0e"/>
+                                </constraints>
+                                <state key="normal" title="alert"/>
+                                <connections>
+                                    <action selector="localizabilityIssues:" destination="Cwc-yz-JZU" eventType="touchUpInside" id="frb-w3-ohA"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="J7K-pc-M9H" firstAttribute="trailing" secondItem="G4G-lr-V1D" secondAttribute="trailing" constant="30" id="AY8-kL-od1"/>
+                            <constraint firstItem="G4G-lr-V1D" firstAttribute="leading" secondItem="J7K-pc-M9H" secondAttribute="leading" constant="30" id="QUT-J2-gza"/>
+                            <constraint firstItem="G4G-lr-V1D" firstAttribute="centerY" secondItem="J7K-pc-M9H" secondAttribute="centerY" id="p4z-zX-Y3C"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="J7K-pc-M9H"/>
                     </view>
                     <navigationItem key="navigationItem" title="静态分析" id="uUb-hP-GXp" userLabel="静态分析"/>
