@@ -61,3 +61,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+QiDebugDemo.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+QiDebugDemo.xcodeproj/xcshareddata/xcschemes/QiDebugDemo.xcscheme
