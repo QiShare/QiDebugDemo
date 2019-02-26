@@ -12,21 +12,37 @@
 
 @end
 
+bool isOK() {
+    
+    return true;
+}
+
 @implementation QiConsoleViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self testLLDBCommands];
+    isOK();
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)testLLDBCommands {
+    
+    NSUInteger count = 10;
+    NSString *string = @"QiShare";
+    NSLog(@"\ncount: %lu\nstring: %@", count, string);
+    string = @"huang";
+    NSLog(@"\ncount: %lu\nstring: %@", count, string);
+    NSArray *arr = @[@"Qi", string];
+    NSLog(@"\narr: %@", arr);
 }
-*/
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+    [super viewDidAppear:animated];
+    
+    NSLog(@"subViews: %@", self.view.subviews);
+}
 
 @end
